@@ -43,18 +43,12 @@ header{
             padding-top: 10px;
             padding-top: 0.5rem;
         }
-        // .crea{
-        //     border-radius: 6px;
-        //     margin-bottom: 3rem;
-        // }
-        .prix{
-            background-color: #454545;
+        .crea{
             border-radius: 6px;
-            margin-bottom: 30px;
-            margin-top: 0.4rem;
-            
+            margin-bottom: 3rem;
+            background-color: #454545;
         }
-        .crea:hover, .contact:hover{
+        .prix:hover, .contact:hover{
             color: #f6c2c2;
             font-size: 1.05rem;
         }
