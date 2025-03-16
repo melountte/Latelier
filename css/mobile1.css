@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  box-shadow: #333333 0px 12px 16px;
+  grid-template-columns: 150px 1fr;
+  background-color: #333;
+  padding-top: 0.9rem;
+  padding-left: 0px;
+  font-family: monospace;
+  height: 3rem;
+  color: #f6c2c2;
+  font-size: 0.4rem;
+}
+header .logo {
+  display: grid;
+  grid-template-columns: 0px 1fr;
+}
+header .logo .place {
+  padding-top: 0.5rem;
+  font-size: 0.6rem;
+  padding-left: 0.3rem;
+  letter-spacing: 0px;
+}
+header .taille {
+  height: 0px;
+  border-radius: 90px;
+  padding-bottom: 1rem;
+  padding-left: 0.1rem;
+}
+header .navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 0.6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header .navigation .crea {
+  padding-bottom: 0.5rem;
+}
+header .navigation .crea, header .navigation .prix, header .navigation .contact {
+  color: aliceblue;
+  font-size: 0.5rel;
+  text-decoration: none;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-top: 0.5rem;
+}
+header .navigation .crea {
+  border-radius: 6px;
+  margin-bottom: 0rem;
+  background-color: #454545;
+  padding-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+header .navigation .prix:hover, header .navigation .contact:hover {
+  color: #f6c2c2;
+  font-size: 1.05rem;
+}
+
+.texte {
+  background-image: url(/img/font.jpg);
+  height: 240px;
+  text-align: center;
+  padding-top: 1.8rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  letter-spacing: 3px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.texte .moi {
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+.texte .button {
+  padding-bottom: 1rem;
+  text-decoration: none;
+  color: white;
+  border: #454545 2px solid;
+  border-radius: 15px;
+  background-color: #333;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.texte .dev {
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+}
+.texte .button:hover {
+  background-color: #f6c2c2;
+  color: #333;
+  font-size: 0.1rem;
+}
+
+.black {
+  background-color: black;
+  color: #ffffff;
+  padding-bottom: 2rem;
+}
+.black .mat {
+  display: block;
+  grid-template-columns: 50% 50%;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.black .mat .comb, .black .mat .combi {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  margin-right: 1rem;
+}
+.black .mat .comb .describ, .black .mat .combi .describ {
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  position: relative;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  background-color: #353535;
+  border: #333 solid 3px;
+  border-radius: 1%;
+  box-shadow: rgb(97, 97, 97) 6px 1px 5px;
+}
+.black .mat .prod {
+  height: 150px;
+  border: #5b5b5b solid 3px;
+  width: 150px;
+}
+.black h3 {
+  padding-top: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 8px;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.black .class {
+  display: block;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 3.5rem;
+  padding-top: 1rem;
+}
+.black .class .creation {
+  height: 300px;
+  width: 260px;
+  padding-bottom: 1rem;
+  border-radius: 56px;
+  box-shadow: rgb(127, 90, 90) 1px 8px 80px;
+}
+.black .possible .blabla {
+  color: rgb(249, 249, 249);
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1.2rem;
+  font-family: serif;
+  font-size: 1.09rem;
+  letter-spacing: 0.8px;
+  position: relative;
+}
+.black .possible .blabla strong {
+  color: pink;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  height: 110px;
+}
+footer .haut {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+}
+footer .haut .mc {
+  height: 50px;
+  padding-left: 3rem;
+}
+footer .haut .info {
+  padding-top: 1.5rem;
+}
+footer .nom {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 0.5rem;
+}
+footer .atel {
+  padding-top: 0.5rem;
+  letter-spacing: 3px;
+  padding-left: 29rem;
+  border-bottom: white solid 1px;
+}
+footer .grid {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+}
+footer .grid .lien {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  font-size: 0.3rem;
+}
+footer .grid .lien .co {
+  color: rgb(144, 144, 144);
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+footer .grid .lien .co:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=mobile1.css.map */

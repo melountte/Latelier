@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  box-shadow: #333333 0px 12px 16px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #333;
+  padding-top: 0.9rem;
+  padding-left: 20px;
+  font-family: monospace;
+  height: 3rem;
+  color: #f6c2c2;
+  font-size: 1.2rem;
+}
+header .logo {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+header .logo .place {
+  padding-top: 0.5rem;
+  letter-spacing: 3px;
+}
+header .taille {
+  height: 48px;
+  border-radius: 90px;
+  padding-bottom: 1rem;
+}
+header .navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header .navigation .crea {
+  padding-bottom: 0.5rem;
+}
+header .navigation .crea, header .navigation .prix, header .navigation .contact {
+  color: aliceblue;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-top: 0.5rem;
+}
+header .navigation .contact {
+  background-color: #454545;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  margin-top: 0.45rem;
+  margin-right: 1rem;
+}
+header .navigation .crea:hover, header .navigation .prix:hover {
+  color: #f6c2c2;
+  font-size: 1.05rem;
+}
+
+.coin {
+  text-align: center;
+  background-image: url(/img/font.jpg);
+  padding-bottom: 7rem;
+  border-bottom: #000000 solid 1px;
+}
+.coin .youp {
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+.coin p {
+  letter-spacing: 7px;
+}
+
+.con {
+  background-color: #000000;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 6rem;
+}
+
+.class1 {
+  border-right: 2px solid white;
+}
+.class1 h1 {
+  padding-bottom: 0.5rem;
+}
+.class1 .img {
+  height: 30px;
+}
+.class1 p .blanc {
+  color: #ffffff;
+}
+.class1 p .blanc:hover {
+  color: rgb(31, 31, 118);
+}
+
+.class2 {
+  margin-left: 2rem;
+}
+.class2 h1 {
+  padding-bottom: 0.5rem;
+}
+.class2 .img {
+  height: 30px;
+}
+.class2 .blanc {
+  color: white;
+}
+.class2 .blanc:hover {
+  color: rgb(31, 31, 118);
+}
+
+.mail-container, .insta-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  height: 150px;
+}
+footer .haut {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+}
+footer .haut .mc {
+  height: 80px;
+  padding-left: 6rem;
+}
+footer .haut .info {
+  padding-top: 1.5rem;
+}
+footer .nom {
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+footer .atel {
+  padding-top: 0.5rem;
+  letter-spacing: 3px;
+  padding-left: 29rem;
+  padding-top: 2rem;
+  border-bottom: white solid 1px;
+}
+footer .grid {
+  display: grid;
+  grid-template-columns: 470px 1fr;
+}
+footer .grid .lien {
+  margin-top: 1rem;
+}
+footer .grid .lien .co {
+  color: rgb(144, 144, 144);
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+footer .grid .lien .co:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=styles3.css.map */

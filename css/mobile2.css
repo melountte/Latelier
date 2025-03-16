@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  box-shadow: #333333 0px 12px 16px;
+  grid-template-columns: 150px 1fr;
+  background-color: #333;
+  padding-top: 0.9rem;
+  padding-left: 0px;
+  font-family: monospace;
+  height: 3rem;
+  color: #f6c2c2;
+  font-size: 0.4rem;
+}
+header .logo {
+  display: grid;
+  grid-template-columns: 0px 1fr;
+}
+header .logo .place {
+  padding-top: 0.5rem;
+  font-size: 0.6rem;
+  padding-left: 0.3rem;
+  letter-spacing: 0px;
+}
+header .taille {
+  height: 0px;
+  border-radius: 90px;
+  padding-bottom: 1rem;
+  padding-left: 0.1rem;
+}
+header .navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 0.6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header .navigation .crea {
+  padding-bottom: 0rem;
+}
+header .navigation .crea, header .navigation .prix, header .navigation .contact {
+  color: aliceblue;
+  font-size: 0.5rel;
+  text-decoration: none;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-top: 0.5rem;
+}
+header .navigation .prix {
+  background-color: #454545;
+  border-radius: 6px;
+  margin-bottom: 0px;
+  margin-top: 0.4rem;
+  margin-right: 0.6rem;
+  padding-left: 0.8rem;
+}
+header .navigation .crea {
+  border-radius: 0px;
+  margin-bottom: 0rem;
+  background-color: none;
+  padding-left: 0rem;
+  margin-right: 0rem;
+}
+header .navigation .prix:hover, header .navigation .contact:hover {
+  color: #f6c2c2;
+  font-size: 2px;
+  padding-bottom: 0rem;
+}
+
+.option {
+  text-align: center;
+  background-image: url(/img/font.jpg);
+  padding-bottom: 7rem;
+  border-bottom: #000000 solid 1px;
+}
+.option h1 {
+  padding-top: 5rem;
+  font-size: 3rem;
+  letter-spacing: 7px;
+  margin-bottom: 1rem;
+}
+.option p {
+  letter-spacing: 2px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.tarif {
+  display: grid;
+  padding-top: 1rem;
+  grid-template-columns: 1fr 1fr 30%;
+  color: white;
+  background-color: black;
+  padding-bottom: 2rem;
+}
+.tarif h2 {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+.tarif li {
+  padding-top: 0.5rem;
+  color: #5d5d5d;
+  font-size: 0.7rem;
+}
+.tarif .bloc1 {
+  margin-left: 0.8rem;
+  border-right: white solid 1px;
+}
+.tarif .bloc2 {
+  margin-left: 1rem;
+  border-right: white solid 1px;
+}
+.tarif .bloc3 {
+  margin-left: 16%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  height: 110px;
+}
+footer .haut {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+}
+footer .haut .mc {
+  height: 50px;
+  padding-left: 3rem;
+}
+footer .haut .info {
+  padding-top: 1.5rem;
+}
+footer .nom {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 0.5rem;
+}
+footer .atel {
+  padding-top: 0.5rem;
+  letter-spacing: 3px;
+  padding-left: 29rem;
+  border-bottom: white solid 1px;
+}
+footer .grid {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+}
+footer .grid .lien {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  font-size: 0.3rem;
+}
+footer .grid .lien .co {
+  color: rgb(144, 144, 144);
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+footer .grid .lien .co:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=mobile2.css.map */
