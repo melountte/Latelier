@@ -45,12 +45,13 @@ header .navigation .crea, header .navigation .prix, header .navigation .contact 
   padding-top: 10px;
   padding-top: 0.5rem;
 }
-header .navigation .crea {
+header .navigation .prix {
   border-radius: 6px;
   margin-bottom: 3rem;
   background-color: #454545;
+  padding-bottom: 0.4rem;
 }
-header .navigation .prix:hover, header .navigation .contact:hover {
+header .navigation .crea:hover, header .navigation .contact:hover {
   color: #f6c2c2;
   font-size: 1.05rem;
 }
