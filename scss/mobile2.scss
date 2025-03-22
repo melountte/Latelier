@@ -90,6 +90,10 @@ header{
     }
     }
     .tarif{
+        p{
+            margin-left: 0.5rem;
+            color: #b3b3b3;
+        }
         display: grid;
         padding-top: 1rem;
         grid-template-columns: 1fr 1fr 30%;

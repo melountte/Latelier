@@ -102,6 +102,10 @@ header .navigation .prix:hover, header .navigation .contact:hover {
   padding-top: 4rem;
   padding-right: 1rem;
 }
+.tarif p {
+  margin-left: 0.5rem;
+  color: #b3b3b3;
+}
 .tarif h2 {
   font-size: 0.9rem;
   margin-bottom: 0.5rem;

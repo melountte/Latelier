@@ -83,6 +83,10 @@ header .navigation .crea:hover, header .navigation .contact:hover {
   background-color: black;
   padding-bottom: 2rem;
 }
+.tarif p {
+  margin-left: 3rem;
+  color: #b3b3b3;
+}
 .tarif h2 {
   font-size: 1.7rem;
   margin-bottom: 0.5rem;
